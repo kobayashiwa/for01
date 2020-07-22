@@ -20,6 +20,10 @@ ul, li {
 	margin: 0;
 	padding: 0;
 }
+h2 {
+	font-size: 64px;
+	padding-bottom: 60px;
+}
 .container {
 	width: 100%;
 	max-width: 1290px;
@@ -81,6 +85,7 @@ header .container {
 	font-size: 12px;
 	color: #DA0909;
 	text-transform: uppercase;
+	padding-top: 120px;
 }
 
 
