@@ -85,7 +85,7 @@ header .container {
 .PageHeaderWrapper .container {
 	border-bottom: 1px solid #E2E7EA;
 }
-.titleCategory {
+.PageHeaderWrapper .titleCategory {
 	font-size: 12px;
 	color: #DA0909;
 	text-transform: uppercase;
@@ -103,6 +103,14 @@ header .container {
 	padding: 0 16px;
 	text-transform: uppercase;
 	font-weight: 600;
+}
+.HeroImageContainer {
+	margin-bottom: 80px;
+}
+.HeroImageContainer .container {
+	background-image: url(../image/HeroImage.jpg);
+	background-size: cover;
+	padding: 240px 0 80px 0;
 }
 
 
