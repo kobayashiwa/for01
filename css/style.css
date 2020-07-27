@@ -23,6 +23,7 @@ ul, li {
 h2 {
 	font-size: 64px;
 	padding-bottom: 60px;
+	font-weight: 500;
 }
 .container {
 	width: 100%;
@@ -44,7 +45,7 @@ header .container {
 	text-align: left;
 	line-height: 130px;
 	font-size: 24px;
-	font-weight: 200;
+	font-weight: 300;
 }
 .header-left .search {
 	padding-right: 16px;
@@ -89,6 +90,19 @@ header .container {
 	color: #DA0909;
 	text-transform: uppercase;
 	padding-top: 120px;
+}
+.SubNavi ul {
+	display: flex;
+	flex-wrap: wrap;
+	height: 80px;
+	line-height: 80px;
+	justify-content: center;
+}
+.SubNavi ul li a {
+	font-size: 12px;
+	padding: 0 16px;
+	text-transform: uppercase;
+	font-weight: 600;
 }
 
 
