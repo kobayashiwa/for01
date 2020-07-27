@@ -124,6 +124,28 @@ header .container {
 	font-weight: 500;
 	line-height: 1.2;
 }
+.with-arrow {
+	color: #fff;
+	font-size: 12px;
+	font-weight: 300;
+	display: inline-block;
+	position: relative;
+}
+.with-arrow span {
+	padding-right: 1em;
+}
+.with-arrow span::after{
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 6px;
+	height: 6px;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #fff;
+	transform: rotate(45deg);
+	margin-top: -5px;
+}
 
 
 /**
